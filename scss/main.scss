@@ -1,0 +1,57 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+@import "_fonts.scss";
+@import "_reboot.scss";
+@import "_grid.scss";
+@import "_keyframes.scss";
+
+// [========[ html >> body ]========]
+
+// #ece89d;
+// #5e5373;
+// #18b5a4;
+
+body{
+	color: $default-text-color;
+	font-family: $default-font-family;
+	background-color: $default-body-color;
+	position: relative;
+}
+
+.ibg{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	img{ display: none; }
+}
+
+*{
+	outline: 0.1vmin solid #ccc;
+}
+
+.wrapper{
+	@include container();
+}
+
+.block{
+	padding-bottom: 50px;
+}
+
+.block-inner {}
+
+// [========[ header ]========]
+
+
+
+// [========[ main ]========]
+
+
+
+// [========[ footer ]========]
+
+
+
+// [========[ 404 page ]========]
+
+
+
