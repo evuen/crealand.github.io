@@ -6,3 +6,13 @@ function ibg() {
 	});
 }
 ibg();
+
+$(document).ready(function(){
+	$(".reviews-carousel").owlCarousel({
+		'items': 2,
+		'loop': true,
+		'autoplay': true,
+		'autoplayHoverPause': true,
+		'nav': true,
+	});
+});
