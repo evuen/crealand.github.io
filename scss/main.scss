@@ -350,6 +350,7 @@ body{
 // [========[ footer ]========]
 
 footer{
+	padding-bottom: 80px;
 	@include container();
 	.footer-form {
 		input{
@@ -393,7 +394,6 @@ footer{
 				color: #cf38ef;
 			}
 		}
-		
 	}
 }
 
